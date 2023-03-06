@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<link rel="stylesheet" href="estilo.css">
+<head>
+   
+<title>Aula de Pesquisa e Invovação</title>
+</head>
+<body>
+    <h1 style="color: rgb(221, 15, 15);">Meu titulo</h1>
+    <p class="bom_dia">Bom dia sou um páragrafo</p>
+    <p class="boa_noite">Boa noite sou um páragrafo</p>
+    <p class="bom_dia_2">Bom dia sou um páragrafo</p>
+    <p class="interno">Bom dia sou um páragrafo</p>
+    <p class="externa">Bom dia sou um páragrafo</p>
+
+    <div id="ola" onclick="ola()"> Olá</div>
+</body>
+</html>
+<script>
+    function ola(){
+        var ola_codigo = document.getElementById('ola')
+        ola_codigo.style.color = "red"
+        var fundo = document.body
+        fundo.style.background = "black"
+        fundo.style.color = "#fff"
+    }
+</script>
